@@ -25,7 +25,7 @@ public class JwtAuthenticationFilter implements GlobalFilter {
     }
 
 
-    //Checking
+
     @Override
     public Mono<Void> filter(
             ServerWebExchange exchange,
